@@ -46,7 +46,10 @@ from io import BytesIO
 from scipy import misc
 
 from transforms3d.euler import euler2mat, mat2euler
-from tensorflow.contrib.keras.python import keras
+from tensorflow.python.keras.models import Sequential
+import tensorflow.python.keras
+import tensorflow.contrib.keras as keras
+#from tensorflow.contrib.keras.python import keras
 from utils import separable_conv2d
 
 from utils import data_iterator

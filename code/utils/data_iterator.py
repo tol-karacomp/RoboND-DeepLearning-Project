@@ -32,8 +32,8 @@ from glob import glob
 from scipy import misc
 
 import numpy as np
-from tensorflow.contrib.keras.python.keras.preprocessing.image import Iterator
-from tensorflow.contrib.keras.python.keras import backend as K
+from tensorflow.python.keras.preprocessing.image import Iterator
+from tensorflow.python.keras import backend as K
 
 
 def preprocess_input(x):

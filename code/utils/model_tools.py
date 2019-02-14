@@ -1,6 +1,9 @@
 import os
 import json
-from tensorflow.contrib.keras.python import keras 
+from tensorflow.python.keras.models import Sequential
+import tensorflow.python.keras
+import tensorflow.contrib.keras as keras
+# from tensorflow.contrib.keras.python import keras 
 from scipy import misc
 from . import data_iterator
 import numpy as np
